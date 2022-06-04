@@ -7,32 +7,34 @@
     <link rel="shortcut icon" href="/assets/images/my logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
     <title>Meong Judi</title>
+    <!-- Java Script -->
+    <script src="/js/front_function.js"></script>
 </head>
 <body style="text-align: center;">
     <!-- Ok Jadi ini adalah navigator bar -->
     <ul>
         <li><a href="/html/index.html">Home</a></li>
-        <li><a href="/html/page1.html">News</a></li>
+        <li><a href="/html/article.html">News</a></li>
         <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="/html/page1.html">About</a></li>
     </ul>
 
-
-    <h1>Anjai aku bohong</h1>
+    <h1 class="Title">Anjai aku <span class="Highlight">bohong</span></h1>
     <br>
     <p style="font: size 60px;" title="Ini rill">Kamu gak boleh bohong loh bang itu gak baik, nanti kamu kena karma yang sangat pedih.</p>
-    <img src="/assets/images/Raja Ampat Papua.jpg" alt="raja ampat ea" height="250">
-    
+    <img src="/assets/images/Raja Ampat Papua.jpg" alt="raja ampat ea" height="250">  
+    <iframe src="/html/page1.html" 
+    height="250" width="500" frameborder="0" name="frame_1"></iframe>
     <br>
-    <a href="/html/index.html">
+    <a href="/html/page1.html">
         <button>Pencet</button>
     </a>
     <br>
     <br>
-
-    <a href="https://music.youtube.com/watch?v=_VXUiAJi5KY&list=RDAMVM_VXUiAJi5KY" 
-    target="_blank" style="text-decoration: none;">
-        <button>Klik Untuk Dugem</button>
+    <a href="/html/index.html" 
+    target="frame_1" style="text-decoration: none;">
+        <button onclick="btnSatu()">Klik Untuk Dugem</button>
     </a>
+
 </body>
 </html>

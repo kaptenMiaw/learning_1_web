@@ -3,18 +3,18 @@
     padding: 0;
 }
 body{
-    background-image: url("assets/images/jeki&lupi.png");
-    background-size: cover;
     min-height: 100vh;
     min-width: 100vh;
 }
 
+/*Navigation Bar Style*/
 ul{
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
     background-color: #333333;
+    min-width: 100vh;
 }
 li{
     float: left;
@@ -32,14 +32,23 @@ li a:hover{
 li a:active{
     background-color: aqua;
 }
+/* End of navigation bar */
 
-h1{
+.Title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
+}
+.Highlight{
+    color: #04AA6D;
 }
 
 p{
     font-family: tahoma;
     font-size: 120%;
-    color: white;
+    color: black;
+}
+pre{
+    font-family: tahoma;
+    font-size: 120%;
+    color: black;
 }
